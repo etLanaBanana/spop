@@ -44,7 +44,7 @@ public class UserService {
 
     public void addProductToCart(CreateUserCommandToCart createUserCommand) {
         User user = userRepository.findById(createUserCommand.getUserId()).orElseThrow(() -> new EntityNotFoundException("User not found"));
-        Product product = productRepository.findById(createUserCommand.getProductId()).orElseThrow(() -> new EntityNotFoundException("Product not found"));
+        List<Product> product = (List<Product>) productRepository.findById(createUserCommand.getProductId()).orElseThrow(() -> new EntityNotFoundException("Product not found"));
         Cart cart = new Cart();
         cart.setUser(user);
         cart.setProduct(product);

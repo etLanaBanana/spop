@@ -879,3 +879,30 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:103)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:100)
 	... 32 common frames omitted
+2024-03-03 00:48:44 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 17.0.10 with PID 13904 (C:\shopp\build\classes\java\main started by pk in C:\shopp)
+2024-03-03 00:48:44 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 00:48:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 00:48:46 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 138 ms. Found 4 JPA repository interfaces.
+2024-03-03 00:48:48 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 00:48:48 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 00:48:48 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 00:48:48 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 00:48:48 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3264 ms
+2024-03-03 00:48:48 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 00:48:48 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 00:48:48 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 00:48:49 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 00:48:49 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 00:48:49 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@71e2c6d8
+2024-03-03 00:48:49 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 00:48:53 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 00:48:53 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 00:48:54 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 00:48:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 00:48:55 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 11.725 seconds (process running for 13.331)
+2024-03-03 00:49:01 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 00:49:01 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 00:49:01 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 6 ms
+2024-03-03 01:15:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 01:15:44 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 01:15:44 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
