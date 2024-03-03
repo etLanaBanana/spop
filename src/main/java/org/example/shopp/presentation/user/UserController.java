@@ -51,7 +51,7 @@ public class UserController {
         return modelMapper.map(user, UserQuery.class);
     }
 
-    @PostMapping("/add-to-cart")
+    @PostMapping("/addToCart")
     public void addToCart(@RequestBody CreateUserCommandToCart createUserCommand) {
         userService.addProductToCart(createUserCommand);
     }
