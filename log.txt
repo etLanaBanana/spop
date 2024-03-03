@@ -906,3 +906,218 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 2024-03-03 01:15:44 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-03-03 01:15:44 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
 2024-03-03 01:15:44 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 09:52:16 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 14752 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 09:52:16 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 09:52:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 09:52:18 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 126 ms. Found 4 JPA repository interfaces.
+2024-03-03 09:52:19 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 09:52:19 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 09:52:19 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 09:52:19 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 09:52:19 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2905 ms
+2024-03-03 09:52:20 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 09:52:20 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 09:52:20 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 09:52:20 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 09:52:20 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 09:52:21 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@456aa471
+2024-03-03 09:52:21 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 09:52:23 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 09:52:24 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 09:52:25 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 09:52:26 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 09:52:26 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 10.312 seconds (process running for 13.412)
+2024-03-03 09:55:14 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 09:55:14 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 09:55:14 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 09:55:25 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 11896 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 09:55:25 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 09:55:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 09:55:26 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 113 ms. Found 4 JPA repository interfaces.
+2024-03-03 09:55:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 09:55:27 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 09:55:27 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 09:55:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 09:55:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2696 ms
+2024-03-03 09:55:28 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 09:55:28 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 09:55:28 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 09:55:29 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 09:55:29 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 09:55:29 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1930a804
+2024-03-03 09:55:29 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 09:55:32 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 09:55:32 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 09:55:33 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 09:55:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 09:55:34 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 9.993 seconds (process running for 11.28)
+2024-03-03 10:04:27 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:04:27 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:04:27 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 10:04:52 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 252 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 10:04:52 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 10:04:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 10:04:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 118 ms. Found 4 JPA repository interfaces.
+2024-03-03 10:04:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 10:04:55 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 10:04:55 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 10:04:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 10:04:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2941 ms
+2024-03-03 10:04:56 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 10:04:56 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 10:04:56 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 10:04:56 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 10:04:56 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 10:04:57 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11148dc2
+2024-03-03 10:04:57 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 10:04:59 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 10:05:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:05:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 10:05:01 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 10:05:01 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 10.02 seconds (process running for 11.393)
+2024-03-03 10:05:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 10:05:44 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 10:05:44 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 3 ms
+2024-03-03 10:12:34 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:12:34 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:12:34 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 10:12:43 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 3496 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 10:12:43 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 10:12:44 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 10:12:45 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 117 ms. Found 4 JPA repository interfaces.
+2024-03-03 10:12:46 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 10:12:46 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 10:12:46 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 10:12:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 10:12:46 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2611 ms
+2024-03-03 10:12:46 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 10:12:46 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 10:12:46 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 10:12:47 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 10:12:47 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 10:12:47 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@59b447a4
+2024-03-03 10:12:47 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 10:12:50 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 10:12:50 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:12:51 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 10:12:52 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 10:12:52 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 10.296 seconds (process running for 11.582)
+2024-03-03 10:13:12 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 10:13:12 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 10:13:12 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 3 ms
+2024-03-03 10:15:43 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:15:43 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:15:43 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 10:15:53 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 10480 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 10:15:53 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 10:15:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 10:15:54 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 121 ms. Found 4 JPA repository interfaces.
+2024-03-03 10:15:55 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 10:15:55 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 10:15:55 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 10:15:55 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 10:15:55 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2638 ms
+2024-03-03 10:15:56 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 10:15:56 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 10:15:56 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 10:15:56 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 10:15:57 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 10:15:57 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4efb13f1
+2024-03-03 10:15:57 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 10:16:00 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 10:16:00 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:16:01 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 10:16:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 10:16:02 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 9.909 seconds (process running for 11.264)
+2024-03-03 10:16:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 10:16:06 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 10:16:06 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 4 ms
+2024-03-03 10:20:11 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:20:11 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:20:11 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 10:20:19 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 13176 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 10:20:19 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 10:20:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 10:20:21 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 122 ms. Found 4 JPA repository interfaces.
+2024-03-03 10:20:22 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 10:20:22 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 10:20:22 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 10:20:22 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 10:20:22 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2708 ms
+2024-03-03 10:20:22 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 10:20:23 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 10:20:23 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 10:20:23 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 10:20:23 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 10:20:24 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@66298fe9
+2024-03-03 10:20:24 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 10:20:26 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 10:20:27 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:20:28 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 10:20:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 10:20:28 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 9.963 seconds (process running for 11.287)
+2024-03-03 10:20:38 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 10:20:38 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 10:20:38 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 3 ms
+2024-03-03 10:20:39 WARN  o.h.e.jdbc.spi.SqlExceptionHelper logExceptions - SQL Error: 0, SQLState: 23505
+2024-03-03 10:20:39 ERROR o.h.e.jdbc.spi.SqlExceptionHelper logExceptions - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9emlp6m95v5er2bcqkjsw48he"
+  Подробности: Ключ "(user_id)=(3)" уже существует.
+2024-03-03 10:20:39 ERROR o.e.s.d.e.ExceptionHandlerAdvice handleConstraintException - исключение вылетело в адвайсе. сообщение could not execute statement [ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9emlp6m95v5er2bcqkjsw48he"
+  Подробности: Ключ "(user_id)=(3)" уже существует.] [insert into cart (product_id,created_ad,deleted_ad,updated_ad,user_id) values (?,?,?,?,?)]; SQL [insert into cart (product_id,created_ad,deleted_ad,updated_ad,user_id) values (?,?,?,?,?)]; constraint [null] 
+2024-03-03 10:25:41 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:25:41 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:25:41 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 10:25:47 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 14268 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 10:25:47 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 10:25:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 10:25:49 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 126 ms. Found 4 JPA repository interfaces.
+2024-03-03 10:25:50 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 10:25:50 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 10:25:50 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 10:25:50 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 10:25:50 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 3006 ms
+2024-03-03 10:25:50 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 10:25:51 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 10:25:51 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 10:25:51 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 10:25:51 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 10:25:52 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1c72189f
+2024-03-03 10:25:52 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 10:25:54 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 10:25:55 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:25:56 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 10:25:56 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 10:25:56 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 10.397 seconds (process running for 11.89)
+2024-03-03 10:26:01 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 10:26:01 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 10:26:01 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 4 ms
+2024-03-03 10:33:59 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:33:59 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:33:59 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.
+2024-03-03 10:34:06 INFO  org.example.shopp.ShoppApplication logStarting - Starting ShoppApplication using Java 20.0.2 with PID 12208 (C:\spopp\build\classes\java\main started by pk in C:\spopp)
+2024-03-03 10:34:06 INFO  org.example.shopp.ShoppApplication logStartupProfileInfo - No active profile set, falling back to 1 default profile: "default"
+2024-03-03 10:34:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-03 10:34:07 INFO  o.s.d.r.c.RepositoryConfigurationDelegate registerRepositoriesIn - Finished Spring Data repository scanning in 109 ms. Found 4 JPA repository interfaces.
+2024-03-03 10:34:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer initialize - Tomcat initialized with port 8084 (http)
+2024-03-03 10:34:08 INFO  o.a.catalina.core.StandardService log - Starting service [Tomcat]
+2024-03-03 10:34:08 INFO  o.a.catalina.core.StandardEngine log - Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-03-03 10:34:08 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring embedded WebApplicationContext
+2024-03-03 10:34:08 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext - Root WebApplicationContext: initialization completed in 2483 ms
+2024-03-03 10:34:09 INFO  o.h.jpa.internal.util.LogHelper logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-03 10:34:09 INFO  org.hibernate.Version logVersion - HHH000412: Hibernate ORM core version 6.4.4.Final
+2024-03-03 10:34:09 INFO  o.h.c.i.RegionFactoryInitiator initiateService - HHH000026: Second-level cache disabled
+2024-03-03 10:34:10 INFO  o.s.o.j.p.SpringPersistenceUnitInfo addTransformer - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-03-03 10:34:10 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Starting...
+2024-03-03 10:34:10 INFO  com.zaxxer.hikari.pool.HikariPool checkFailFast - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@40f1aa95
+2024-03-03 10:34:10 INFO  com.zaxxer.hikari.HikariDataSource getConnection - HikariPool-1 - Start completed.
+2024-03-03 10:34:13 INFO  o.h.e.t.j.p.i.JtaPlatformInitiator initiateService - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-03-03 10:34:13 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:34:14 WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration openEntityManagerInViewInterceptor - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-03 10:34:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer start - Tomcat started on port 8084 (http) with context path ''
+2024-03-03 10:34:15 INFO  org.example.shopp.ShoppApplication logStarted - Started ShoppApplication in 10.026 seconds (process running for 11.28)
+2024-03-03 10:34:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] log - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-03 10:34:23 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Initializing Servlet 'dispatcherServlet'
+2024-03-03 10:34:23 INFO  o.s.web.servlet.DispatcherServlet initServletBean - Completed initialization in 3 ms
+2024-03-03 10:43:36 INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean destroy - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-03-03 10:43:36 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown initiated...
+2024-03-03 10:43:36 INFO  com.zaxxer.hikari.HikariDataSource close - HikariPool-1 - Shutdown completed.

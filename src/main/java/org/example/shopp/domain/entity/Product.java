@@ -35,8 +35,9 @@ public class Product {
     @JoinColumn(name = "category_id")
     private Category category;
 
-
-
+    @ManyToOne
+    @JoinColumn(name = "cart_id")
+    private Cart cart;
 
     @Column(name = "country_of_origin")
     private String countryOfOrigin;

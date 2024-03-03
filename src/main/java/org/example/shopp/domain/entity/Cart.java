@@ -26,8 +26,12 @@ public class Cart {
     private User user;
 
     @OneToMany
+    @JoinColumn(name = "cart_id")
+    private List<Product> products;
+
+    @ManyToOne
     @JoinColumn(name = "product_id")
-    private List<Product> product;
+    private Product product;
 
     @Embedded
     private TimeInfo timeInfo;

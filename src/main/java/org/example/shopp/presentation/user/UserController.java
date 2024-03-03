@@ -23,7 +23,7 @@ import java.util.List;
 public class UserController {
     private UserService userService;
     private ModelMapper modelMapper;
-    private CartService cartService;
+
 
     @PostMapping("/addNewUser")
     private UserQuery addNewUser(@RequestBody CreateUserCommand createUserCommand) {
