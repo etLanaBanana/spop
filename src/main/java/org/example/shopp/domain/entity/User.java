@@ -25,10 +25,10 @@ public class User extends FullName {
     @Embedded
     private TimeInfo timeInfo;
 
-    @OneToOne(fetch = FetchType.EAGER, mappedBy = "user")
+    @OneToOne(mappedBy = "user")
     private History histories;
 
-    @OneToMany(fetch = FetchType.EAGER, mappedBy = "user")
+    @OneToMany(mappedBy = "user")
     private List<Product> products;
 
     @OneToOne(mappedBy = "user")
