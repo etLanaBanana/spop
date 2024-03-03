@@ -18,11 +18,11 @@ public class History {
     @Column(name = "history_id")
     private Long historyId;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "cart_id")
     private Cart cart;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "user_id")
     private User user;
 
