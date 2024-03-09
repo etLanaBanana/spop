@@ -6,6 +6,7 @@ import org.example.shopp.application.user.UserService;
 
 
 import org.example.shopp.domain.entity.User;
+import org.example.shopp.infrastructure.routes.UserRoutes;
 import org.example.shopp.presentation.user.dto.command.CreateUserCommand;
 import org.example.shopp.presentation.user.dto.command.CreateUserCommandToCart;
 import org.example.shopp.presentation.user.dto.command.UpdateUserCommand;
@@ -18,20 +19,20 @@ import java.util.List;
 
 
 @RestController
-@RequestMapping("users")
+@RequestMapping(UserRoutes.USERS)
 @AllArgsConstructor
 public class UserController {
     private UserService userService;
     private ModelMapper modelMapper;
 
 
-    @PostMapping("/addNewUser")
+    @PostMapping(UserRoutes.ADD_NEW_USER)
     private UserQuery addNewUser(@RequestBody CreateUserCommand createUserCommand) {
         User user = modelMapper.map(createUserCommand, User.class);
         user = userService.addNewUser(user);
         return modelMapper.map(user, UserQuery.class);
     }
-    @GetMapping("/getUsers")
+    @GetMapping(UserRoutes.GET_ALL_USERS)
     private List<UserQuery> getUsers() {
         List<User> users = userService.getUsers();
         List<UserQuery> userQueries = new ArrayList<>();
@@ -40,20 +41,15 @@ public class UserController {
         }
         return userQueries;
     }
-    @GetMapping("/getUserById/{id}")
+    @GetMapping(UserRoutes.GET_USER_BY_ID)
     private UserQuery getUserById(@PathVariable Long id) {
         User user = userService.getUserById(id);
         return modelMapper.map(user, UserQuery.class);
     }
-    @GetMapping("/getUserByFirstName/{firstName}")
+    @GetMapping(UserRoutes.GET_USER_BY_FIRST_NAME)
     private UserQuery getUserByFirstName(@PathVariable String firstName) {
         User user = userService.getUserByFirstName(firstName);
         return modelMapper.map(user, UserQuery.class);
-    }
-
-    @PostMapping("/addToCart")
-    public void addToCart(@RequestBody CreateUserCommandToCart createUserCommand) {
-        userService.addProductToCart(createUserCommand);
     }
 
 }

@@ -18,6 +18,10 @@ public class CategoryService {
         return categoryRepository.findByTitleCategory(title);
     }
     public Category createCategories(Category categoriesFromCommand) {
+        Category existingCategory = getCategoriesByTitle(categoriesFromCommand.getTitleCategory());
+        if (existingCategory != null) {
+            return existingCategory;
+        }
         Category categories = categoryRepository.save(categoriesFromCommand);
         return categories;
     }

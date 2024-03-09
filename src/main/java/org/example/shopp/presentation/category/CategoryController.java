@@ -3,6 +3,7 @@ package org.example.shopp.presentation.category;
 import lombok.AllArgsConstructor;
 import org.example.shopp.application.category.CategoryService;
 import org.example.shopp.domain.entity.Category;
+import org.example.shopp.infrastructure.routes.CategoryRoutes;
 import org.example.shopp.presentation.category.dto.command.CreateCategoryCommand;
 import org.example.shopp.presentation.category.dto.query.CategoryQuery;
 import org.modelmapper.ModelMapper;
@@ -13,24 +14,23 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-@RequestMapping("/category")
+@RequestMapping(CategoryRoutes.CATEGORIES)
 public class CategoryController {
 
     private CategoryService categoryService;
     private ModelMapper modelMapper;
 
-    @PostMapping("/createCategory")
+    @PostMapping(CategoryRoutes.CREATE_CATEGORY)
     public CategoryQuery createNewCategories(@RequestBody CreateCategoryCommand categoriesCommand) {
         Category categoriesFromCommand = new Category();
 
         categoriesFromCommand.setTitleCategory(categoriesCommand.getTitleCategory());
-
         Category categories = categoryService.createCategories(categoriesFromCommand);
 
         CategoryQuery categoriesQueryResponse = modelMapper.map(categories, CategoryQuery.class);
         return categoriesQueryResponse;
     }
-    @GetMapping("/getCategories")
+    @GetMapping(CategoryRoutes.GET_ALL_CATEGORIES)
     public List<CategoryQuery> getCategories() {
         List<Category> categories = categoryService.getCategories();
         List<CategoryQuery> categoriesQuery = new ArrayList<>();

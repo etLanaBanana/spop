@@ -17,8 +17,7 @@ public class Product {
     @Column(name = "product_id")
     private Long productId;
 
-    @OneToOne
-    @JoinColumn(name = "history_id")
+    @OneToOne(mappedBy = "product")
     private History history;
 
     @ManyToOne

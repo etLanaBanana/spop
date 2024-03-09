@@ -6,6 +6,7 @@ import org.example.shopp.domain.valueObj.FullName;
 import org.example.shopp.domain.valueObj.TimeInfo;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 @Getter
@@ -41,5 +42,12 @@ public class User extends FullName {
             timeInfo = new TimeInfo();
         }
         timeInfo.setCreatedAd(LocalDateTime.now());
+    }
+
+    public void addProduct(Product product) {
+        if (products == null) {
+            products = new ArrayList<>();
+        }
+        products.add(product);
     }
 }

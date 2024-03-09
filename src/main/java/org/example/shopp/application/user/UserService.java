@@ -42,18 +42,4 @@ public class UserService {
         return userRepository.findByFirstName(firstName);
     }
 
-    public void addProductToCart(CreateUserCommandToCart createUserCommand) {
-        User user = userRepository.findById(createUserCommand.getUserId()).orElseThrow(() -> new EntityNotFoundException("User not found"));
-        Product product = productRepository.findById(createUserCommand.getProductId()).orElseThrow(() -> new EntityNotFoundException("Product not found"));
-
-        Cart cart = user.getCart();
-        if (cart == null) {
-            cart = new Cart();
-            cart.setUser(user);
-            cart.setProducts(new ArrayList<>());
-        }
-
-        cart.getProducts().add(product);
-        cartRepository.save(cart);
-    }
 }
